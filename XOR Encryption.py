@@ -19,7 +19,7 @@ def encrypt_message():
     key_hex = key_bytes.hex()
    
     print("\n--- ENCRYPTION RESULTS ---")
-    print(f"Original message: {user_message}")S
+    print(f"Original message: {user_message}")
     print(f"Key used: {encryption_key}")
     print(f"Key (hex): {key_hex}")
     print(f"Encrypted data (hex): {encrypted_bytes.hex()}")
@@ -90,4 +90,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
